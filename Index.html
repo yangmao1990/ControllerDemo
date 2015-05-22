@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Contolllers Demo</title>
+    <script src="app/Libs/angular.min.js"></script>
+    <script src="app/app.js"></script>
+</head>
+<body>
+   
+
+    <section id="section2" data-ng-app="myWebAdminApp" >
+        <div data-ng-controller="IndexController">
+            {{appName}}
+            <br />
+            Name : <input type="text" data-ng-model="name" /> <br />
+            <button type="button" data-ng-click="greet()">Click Me</button>
+        </div>
+    </section>
+
+</body>
+</html>
